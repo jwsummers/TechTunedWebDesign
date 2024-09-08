@@ -228,6 +228,10 @@ footer .nav-link {
         font-size: 200px;
         letter-spacing: -15px;
     }
+
+    .page-title-extra-large h1 {
+        font-size: 4.5rem;
+    }
     .process-step-style-10.hover-box:hover .hover-content {
         bottom: 0;
     }
