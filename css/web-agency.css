@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 /* variable */
 :root {     
-    --base-color: #BEFF01;
+    --base-color: #8d01ff;
     --medium-gray:#6F7071;
     --dark-gray:#1C1D1F; 
     --alt-font: 'Inter', sans-serif;
@@ -20,7 +20,7 @@ body {
     font-size: 18px;
 }
 header .navbar-brand img {
-    max-height: 250px;
+    max-height: 175px;
     position: absolute;
     top: 50%;
     transform: translateY(-30%);
