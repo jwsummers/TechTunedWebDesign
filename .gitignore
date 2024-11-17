@@ -1,0 +1,29 @@
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Editor-specific
+.vscode/
+.idea/
+
+# Dependencies
+node_modules/
+vendor/
+
+# Build artifacts
+dist/
+build/
+
+# Logs and temporary files
+*.log
+*.tmp
+logs/
+
+# Secrets
+.env
+*.env.*
+
+# Misc
+*.zip
+*.tar.gz
+*.rar
