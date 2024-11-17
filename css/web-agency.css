@@ -11,6 +11,72 @@ body {
     font-size: 17px;
     line-height: 32px;
 }
+
+/* Section styling */
+.services-section {
+    padding: 50px 20px;
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 40px;
+    font-weight: 600;
+  }
+  
+  /* Grid styling */
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  /* Card styling */
+  .service-card {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+    position: relative;
+  }
+  
+  .service-card:hover {
+    box-shadow: 0 10px 25px rgba(141, 1, 255, 0.5);
+    transform: translateY(-10px);
+  }
+  
+  /* Icon styling */
+  .service-card .icon {
+    font-size: 3rem;
+    color: #8d01ff;
+    margin-bottom: 15px;
+  }
+  
+  /* Title styling */
+  .service-title {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: 500;
+  }
+  
+  /* Features styling */
+  .service-features {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .service-features li {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
 .top-space-margin {
     margin-top: 120px;
 }
@@ -20,7 +86,7 @@ body {
     font-size: 18px;
 }
 header .navbar-brand img {
-    max-height: 175px;
+    max-height: 300px;
     position: absolute;
     top: 50%;
     transform: translateY(-30%);
