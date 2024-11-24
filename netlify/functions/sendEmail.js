@@ -14,14 +14,16 @@ exports.handler = async (event) => {
 
     try {
         // Parse the form data
-        const { name, email, message } = JSON.parse(event.body);
+        const querystring = require('querystring');
+const { name, email, comment } = querystring.parse(event.body);
+
 
         // Set up the email content
         const msg = {
-            to: 'contact@techtunedwebdesign.com', 
-            from: 'contact@techtunedwebdesign.com', 
+            to: 'contact@techtunedwebdesign.com',
+            from: 'contact@techtunedwebdesign.com',
             subject: `New Contact Form Submission from ${name}`,
-            text: `You received a new message from your contact form:\n\nName: ${name}\nEmail: ${email}\nMessage: ${message}`,
+            text: `You received a new message from your contact form:\n\nName: ${name}\nEmail: ${email}\nMessage: ${comment}`,
         };
 
         // Send the email
