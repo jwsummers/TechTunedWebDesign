@@ -87,7 +87,7 @@
                     </div>
                     <div class="col-lg-5 offset-lg-1 contact-form-style-03" data-anime='{ "el": "childs", "translateY": [-15, 0], "opacity": [0,1], "duration": 800, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
                         <h6 class="fw-500 text-dark-gray mb-20px sm-mb-10px ls-minus-05px"><span class="fw-700">Hello,</span> Tell us about your project.</h6>
-                        <form id="contactForm" action="api/sendEmail.js" method="post">
+                        <form id="contactForm" action="/.netlify/functions/sendEmail" method="post">
                             <div class="position-relative form-group mb-20px">
                                 <span class="form-icon"><i class="bi bi-person icon-extra-medium text-dark-gray"></i></span>
                                 <input class="ps-0 border-radius-0px border-color-dark-gray form-control required" type="text" name="name" placeholder="Your name*" />
@@ -185,6 +185,7 @@
         </div>
         <!-- end scroll progress -->
         <!-- javascript libraries -->
+        <script type="text/javascript" src="js/form.js"></script>
         <script type="text/javascript" src="js/jquery.js"></script>
         <script type="text/javascript" src="js/vendors.min.js"></script>
         <script type="text/javascript" src="js/main.js"></script> 
