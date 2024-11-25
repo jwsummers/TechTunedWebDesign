@@ -88,7 +88,8 @@ body {
 header .navbar-brand img {
     max-height: 300px;
     position: absolute;
-    top: 50%;
+    top: 10%;
+    left: 0;
     transform: translateY(-30%);
 }
 header .btn.btn-switch-text.btn-medium > span {
