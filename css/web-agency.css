@@ -129,6 +129,10 @@ header .btn.btn-switch-text.btn-medium > span {
 .word-break-normal {
     word-break: normal;
 }
+.custom-wrap {
+    word-break: break-word;
+    white-space: normal;
+}
 /* bg color */
 .bg-sherpa-blue {
     background-color: #333436;
