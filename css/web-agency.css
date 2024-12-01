@@ -25,6 +25,21 @@ body {
     margin-bottom: 40px;
     font-weight: 600;
   }
+
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+video {
+    max-width: 100%;
+    display: block;
+    border-radius: 6px;
+    object-fit: cover;
+}
   
   /* Grid styling */
   .services-grid {
