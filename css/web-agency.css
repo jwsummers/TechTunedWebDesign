@@ -45,30 +45,6 @@ video {
 .text-purple {
     color: #8d01ff;
   }
-  
-  /* Hide descriptions initially */
-  .icon-description {
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-    color: #8d01ff;
-  }
-  
-  /* Show descriptions on hover */
-  .col:hover .icon-description {
-    opacity: 1;
-  }
-  
-  /* Hover effect for icons */
-  .col:hover i {
-    color: #8d01ff; 
-    transform: scale(1.2);
-    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
-  }
-  
-  /* Hover effect for headings */
-  .col:hover .fw-600 {
-    color: #8d01ff;
-  }
 
   .services-section a {
     text-decoration: none;
