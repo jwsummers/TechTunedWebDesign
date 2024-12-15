@@ -40,6 +40,67 @@ video {
     border-radius: 6px;
     object-fit: cover;
 }
+
+/* Brand purple color */
+.text-purple {
+    color: #8d01ff;
+  }
+  
+  /* Hide descriptions initially */
+  .icon-description {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    color: #8d01ff;
+  }
+  
+  /* Show descriptions on hover */
+  .col:hover .icon-description {
+    opacity: 1;
+  }
+  
+  /* Hover effect for icons */
+  .col:hover i {
+    color: #8d01ff; 
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  /* Hover effect for headings */
+  .col:hover .fw-600 {
+    color: #8d01ff;
+  }
+
+  .services-section a {
+    text-decoration: none;
+    color: #8d01ff;
+  }
+
+  .services-section a:hover {
+    text-decoration: underline;
+    color: #4b107c;
+  }
+  
+  .bg-white {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .bg-white:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .bg-dark-gray a {
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .bg-dark-gray a:hover {
+    background-color: #8d01ff;
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+  }
+  
+  
   
   /* Grid styling */
   .services-grid {
