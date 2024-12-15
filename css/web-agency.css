@@ -45,6 +45,27 @@ video {
 .text-purple {
     color: #8d01ff;
   }
+  
+  /* Scoped styles for the technology icons */
+.tech-icons .icon-description {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    color: #8d01ff;
+}
+
+.tech-icons .col:hover .icon-description {
+    opacity: 1;
+}
+
+.tech-icons .col:hover i {
+    color: #8d01ff; 
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.tech-icons .col:hover .fw-600 {
+    color: #8d01ff;
+}
 
   .services-section a {
     text-decoration: none;
