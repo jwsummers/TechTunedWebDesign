@@ -46,7 +46,29 @@ video {
     color: #8d01ff;
   }
   
-  /* Scoped styles for the technology icons */
+.profile-picture {
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+    -webkit-transition: 350ms ease-in-out;
+    transition: 350ms ease-in-out;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.profile-picture:hover {
+    -webkit-box-shadow: 0 10px 25px rgba(141, 1, 255, 0.5);
+    box-shadow: 0 10px 25px rgba(141, 1, 255, 0.5);
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+   -webkit-transition: 350ms ease-in-out;
+    transition: 350ms ease-in-out;
+}
+
+.social-icon i:hover {
+    color: #8d01ff;
+    transform: translateY(-3px);
+}
+
 .tech-icons .icon-description {
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
